@@ -12,10 +12,11 @@ $result = mysqli_query($db, "SELECT * FROM siswa");
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>CRUD</title>
 </head>
-<body>
+<body style="background: #940000;">
     <div class="container mt-5">
         <div class="d-grip gap-2 col-12">
-        <a href="createfo.php" class="btn btn-dark mb-3">Add User</a>
+          <a href="beranda.php" class="btn btn-light mb-3">Kembali</a>
+        <a href="createfo.php" class="btn btn-light mb-3">Add User</a>
     <table class="table table-dark table-hover table-borderless">
   <thead>
     <tr style="text-align:center;">
